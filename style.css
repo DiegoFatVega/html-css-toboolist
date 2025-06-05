@@ -1,9 +1,10 @@
+/* #bodystyle */
 body {
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    font-family: arial, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
     background-color: #f6f8f9;
 }
-
+/* #endbodystyle */
 header {
     background-color: #ffffff;
     padding-top: 20px;
@@ -35,8 +36,31 @@ hr{
     padding-bottom: 13px;
 }
 
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius:0.25rem;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-primary{
+    background-color:blue;
+    border: 1px solid blue;
+    color: #f6f8f9;
+
+}
+
+.btn-outline{
+    border: 1px solid;
+    color: grey;
+
+}
 .main_section{
     padding-top: 35px;
     padding-left: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: bold; 
 
 }
